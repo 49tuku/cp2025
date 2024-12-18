@@ -1,5 +1,5 @@
 # 彩票系统源码|php+vue彩票系统源码|彩票系统建站搭建时时彩快三平台
-专注时时彩网站源码、彩票网站搭建、彩票系统开发、菠菜搭建教程等，让您轻松建站，网站搭建无忧！提供的彩票源码交易、菠菜源码出售、交易所系统搭建、资金理财盘架设、时时彩平台制作、投资理财系统、棋牌游戏源码、聊天软件源码、抢单源码二次开发等服务！
+专注时时彩网站源码、[彩票网站搭建](https://www.tuku325.cc/?tags=292)、彩票系统开发、菠菜搭建教程等[灰产软件开发](https://www.tuku325.cc/?cate=8)服务，让您轻松建站，网站搭建无忧！提供的彩票源码交易、菠菜源码出售、交易所系统搭建、[六合彩系统开发](https://www.tuku325.cc/?tags=213)、资金理财盘架设、时时彩平台制作、投资理财系统、棋牌游戏源码、聊天软件源码、抢单源码二次开发等服务！
 
 
 
@@ -31,54 +31,21 @@ php+vue彩票系统源码程序是一套采用PHP+vue+apache+MYSQL环境下运�
 
 ## 安装使用
 
-https://doc.fastadmin.net
+https://p1.cp567.cc/#/
 
 ## 在线演示
-
-https://demo.fastadmin.net
-
-用户名：admin
-
-密　码：123456
-
-提　示：演示站数据无法进行修改，请下载源码安装体验全部功能
+https://p1.cp567.cc/#/
+提　示：演示站数据并不真实，自行注册体验；若需后台，请联系技术 https://cp567.cc/
 
 ## 界面截图
-![控制台](https://images.gitee.com/uploads/images/2020/0929/202947_8db2d281_10933.gif "控制台")
+![彩票系统建站搭建时时彩快三平台](https://www.tuku325.cc/zb_users/upload/2024/12/202412161734356382671880.png "彩票系统建站搭建时时彩快三平台")
 
 ## 问题反馈
 
 在使用中有任何问题，请使用以下联系方式联系我们
 
-交流社区: https://ask.fastadmin.net
+交流社区: https://cp567.cc/
 
-QQ 1 群（满）、QQ 2 群（满）、QQ 3 群（满）、QQ 4 群（满）、QQ 5 群（满）、QQ 6 群（满）、[QQ 7 群](https://www.fastadmin.net/goto/qun)。
-
-Github: https://github.com/karsonzhang/fastadmin
-
-Gitee: https://gitee.com/karson/fastadmin
-
-## 特别鸣谢
-
-感谢以下的项目,排名不分先后
-
-ThinkPHP：http://www.thinkphp.cn
-
-AdminLTE：https://adminlte.io
-
-Bootstrap：http://getbootstrap.com
-
-jQuery：http://jquery.com
-
-Bootstrap-table：https://github.com/wenzhixin/bootstrap-table
-
-Nice-validator: https://validator.niceue.com
-
-SelectPage: https://github.com/TerryZ/SelectPage
-
-Layer: https://layuion.com/layer/
-
-DropzoneJS: https://www.dropzonejs.com
 
 ### 免责声明
 本程序仅供内部学习和交流使用，没有内置任何数据，请在遵守当地法律的前提下使用本站程序，对用户在使用过程中的自行维护的信息内容本站不负任何责任！
