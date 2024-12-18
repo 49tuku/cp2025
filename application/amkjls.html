@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <meta name="hotcss" content="initial-dpr=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta http-equiv="x-ua-compatible" content="IE=edge, chrome=1">
+    <meta name="renderer" content="webkit">
+    <meta name="keywords" content="澳门六合彩图库,香港六合彩图库,台湾六合彩图库,新加坡六合彩图库">
+    <meta name="description" content="澳门六合彩图库,香港六合彩图库,台湾六合彩图库,新加坡六合彩图库">
+    <title>澳门六合彩图库,香港六合彩图库,台湾六合彩图库,新加坡六合彩图库</title>
+    <script src="/amls_files/jquery1.7.2.min.js"></script>
+    <script src="/amls_files/layer.js"></script>
+    <link rel="stylesheet" href="/amls_files/layer.css" id="layui_layer_skinlayercss" style="">
+
+</head>
+
+<body>
+<div class="ts dialog alertInfoDialog" style="display: none;" id="alertInfoDialogInfoContainer"
+     data-withbg="true"></div>
+
+
+<link href="/amls_files/app.331b0182.css" rel="stylesheet" type="text/css">
+<link href="/amls_files/chunk-vendors.e7906f1c.css" rel="stylesheet" type="text/css">
+
+
+<link rel="stylesheet" type="text/css" href="/amls_files/chunk-161d4fae.9524cc78.css">
+<link href="/amls_files/history.css" rel="stylesheet" type="text/css">
+
+<link href="/amls_files/MultiPicker.css" rel="stylesheet" type="text/css">
+<script src="/amls_files/MultiPicker.js"></script>
+
+
+<div id="app">
+    <div>
+        <div class="lottery-index">
+            <div class="van-nav-bar van-nav-bar--fixed van-hairline--bottom">
+                <div class="van-nav-bar__content">
+                    <a onclick="javascript:window.history.go(-1);" class="van-nav-bar__left">
+                        <i class="van-icon van-icon-arrow-left" style="color: rgb(51,51,51); font-size: 16px;">
+                            <!----></i>
+                    </a>
+                    <div class="van-nav-bar__title van-ellipsis">澳门历史开奖</div>
+                    <div class="van-nav-bar__right" style="display: none">
+                        <a href="/amkjls.html?year=2022"> <i id="yearSelect"
+                                                                                            class="van-icon van-icon-notes-o"
+                                                                                            style="color: rgb(7,193,96); font-size: 16px;">
+                            <p>2022</p></i></a>
+                    </div>
+
+                </div>
+            </div>
+            <div class="van-tabs van-tabs--line">
+                <div>
+                    <div class="van-sticky">
+                        <div class="van-tabs__wrap">
+                            <div role="tablist" class="van-tabs__nav van-tabs__nav--line">
+                                <div role="tab" aria-selected="true" class="van-tab van-tab--active"
+                                     style="color: rgb(7,193,96);">
+                                    <a href="/amkjls.html" style="color: rgb(7,193,96);"
+                                       class="van-tab__text van-tab__text--ellipsis tab-act">澳门</a>
+                                </div>
+                                <div role="tab" class="van-tab" style="color: rgb(51,51,51);">
+                                    <a href="/xgkjls.html" style="color: rgb(51,51,51);"
+                                       class="van-tab__text van-tab__text--ellipsis">香港</a>
+                                </div>
+                                <div style=" display: none;" role="tab" class="van-tab">
+                                    <a href="https://853tuku.com/history.php?name=tw" style="color: rgb(51,51,51);"
+                                       class="van-tab__text van-tab__text--ellipsis">台湾</a>
+                                </div>
+                                <div style=" display: none;" role="tab" class="van-tab">
+                                    <a href="https://853tuku.com/history.php?name=xjp" style="color: rgb(51,51,51);"
+                                       class="van-tab__text van-tab__text--ellipsis">新加坡</a>
+                                </div>
+                                <div class="van-tabs__line"
+                                     style="transform: translateX(94px) translateX(-50%); height: 0px; border-radius: 0px;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="van-tabs__content van-tabs__content--animated">
+                    <div class="van-tabs__track"
+                         style="transform: translate3d(0%, 0px, 0px); transition-duration: 0.3s;">
+                        <div role="tabpanel" class="van-tab__pane-wrapper">
+                            <div class="van-tab__pane">
+                                <div class="historical-list">
+                                    <div class="van-pull-refresh">
+                                        <div class="van-pull-refresh__track" style="transition-duration: 0ms;">
+                                            <div class="van-pull-refresh__head"></div>
+                                            <div class="head-find">
+                                                <div class="van-row">
+                                                    <div class="van-col van-col--10"><span id="year">2023</span>年历史开奖记录
+                                                    </div>
+                                                    <div class="van-col van-col--14">
+                                                        <div class="right-find flex-end">
+                                                            <span class="border center act" id="controlOrder">降序</span>
+                                                            <span class="center act" id="controlWx">五行</span>
+                                                            <span class="van-popover__wrapper" id="controlPm">
+                                                                <span>默认</span>
+                                                                </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="body-list">
+                                                <div role="feed" class="van-list" id="historyListDiv">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div role="tabpanel" aria-hidden="true"
+                             class="van-tab__pane-wrapper van-tab__pane-wrapper--inactive">
+                            <div class="van-tab__pane">
+                                <!---->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!---->
+        </div>
+        <!---->
+    </div>
+</div>
+
+<div id="pmSelectShowDiv" class="van-popup van-popover van-popover--light"
+     style="z-index: 2006; position: absolute; left: 256px; top: 132px; margin: 0px; display: none;"
+     data-popper-placement="bottom">
+    <div class="van-popover__arrow"></div>
+    <div role="menu" class="van-popover__content">
+        <div role="menuitem" class="van-popover__action">
+            <div class="van-popover__action-text van-hairline--bottom pmitem" data-value="default">默认</div>
+        </div>
+        <div role="menuitem" class="van-popover__action">
+            <div class="van-popover__action-text van-hairline--bottom pmitem" data-value="asc">平码升序</div>
+        </div>
+        <div role="menuitem" class="van-popover__action">
+            <div class="van-popover__action-text van-hairline--bottom pmitem" data-value="desc">平码降序</div>
+        </div>
+    </div>
+</div>
+
+<div id="Group-targetContainer">
+    <div class="multi-picker-bg" id="multi-picker-bg-Group-targetContainer">
+        <div class="multi-picker-container" id="multi-picker-container-Group-targetContainer">
+            <div class="multi-picker-btn-box">
+                <div class="multi-picker-btn" id="multi-picker-btn-cancel">返回</div>
+                <div class="multi-picker-btn" id="multi-picker-btn-save-Group-targetContainer">确定</div>
+            </div>
+            <div class="multi-picker-content">
+                <div class="multi-picker" style="width: 100%;">
+                    <ul id="multi-picker-Group-targetContainer-0">
+                        <li data-id="-99"></li>
+                        <li data-id="-99"></li>
+                        <li data-id="undefined">2022</li>
+                        <li data-id="undefined">2021</li>
+                        <li data-id="-99"></li>
+                        <li data-id="-99"></li>
+                    </ul>
+                </div>
+                <div class="multi-picker-up-shadow"></div>
+                <div class="multi-picker-down-shadow"></div>
+                <div class="multi-picker-line"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    var year = "2023"
+    var orderType = "desc";
+    var showWx = true;
+    var pmOrder = 'default';
+    var historyList = [];
+    var lishiList = "/index/ajax/amkjls";
+
+
+    function initHtml() {
+        $('#year').html(year)
+        var bsobj = {
+            'red': '1',
+            'blue': '2',
+            'green': '3'
+        }
+        var html = '';
+        historyList.forEach(function (item) {
+            var pmHtml = '';
+            item.data.forEach(function (iten) {
+                pmHtml += '<div class="van-col van-col--3">\n' +
+                    '                                                                            <div class="icon-text">\n' +
+                    '                                                                                <div><span class="slot-icon bg-amage-' + bsobj[iten['bs_py']] + '"><span>' + iten.num + '</span></span>\n' +
+                    '                                                                                </div>\n' +
+                    '                                                                                <div class="slot-text">\n' +
+                    '                                                                                    ' + iten.sx + '<span>/' + (showWx ? iten.wx : '') + '</span></div><!----></div>\n' +
+                    '                                                                        </div>';
+            })
+
+            html += '<div class="body-list-item">\n' +
+                '                                                        <div class="hd-text">\n' +
+                '                                                            <div class="van-row">\n' +
+                '                                                                <div class="van-col van-col--16">第' + item.issue + '期最新开奖结果</div>\n' +
+                '                                                                <div class="van-col van-col--8"><span>' + item.open_date + '</span>\n' +
+                '                                                                </div>\n' +
+                '                                                            </div>\n' +
+                '                                                        </div>\n' +
+                '                                                        <div class="border-box">\n' +
+                '                                                            <div class="border-box-body"><!----><!---->\n' +
+                '                                                                <div class="border-box-body-bd">\n' +
+                '                                                                    <div class="van-row">\n' +
+                pmHtml +
+                '                                                                        <div class="van-col van-col--3">\n' +
+                '                                                                            <div class="connect">\n' +
+                '                                                                                <i class="van-icon van-icon-plus" style="color: rgb(172, 172, 172);"><!----></i>\n' +
+                '                                                                            </div>\n' +
+                '                                                                        </div>\n' +
+                '                                                                        <div class="van-col van-col--3">\n' +
+                '                                                                            <div class="icon-text">\n' +
+                '                                                                                <div><span class="slot-icon bg-amage-' + bsobj[item.v7['bs_py']] + '"><span>' + item.v7['num'] + '</span></span>\n' +
+                '                                                                                </div>\n' +
+                '                                                                                <div class="slot-text">\n' +
+                '                                                                                    ' + item.v7['sx'] + '<span>/' + (showWx ? item.v7['wx'] : '') + '</span></div><!----></div>\n' +
+                '                                                                        </div>\n' +
+                '                                                                    </div>\n' +
+                '                                                                </div><!----></div>\n' +
+                '                                                        </div>\n' +
+                '                                                    </div>'
+        })
+
+        $('#historyListDiv').html(html)
+    }
+
+    $('#controlOrder').click(function () {
+        if ($(this).hasClass('act')) {
+            $(this).removeClass('act');
+            orderType = 'asc';
+            $(this).html('升序')
+            requestList();
+        } else {
+            $(this).addClass('act');
+            orderType = 'desc';
+            $(this).html('降序')
+            requestList();
+        }
+    })
+
+    $('#controlWx').click(function () {
+        showWx = !showWx;
+        if (showWx) {
+            $(this).addClass('act');
+        } else {
+            $(this).removeClass('act');
+        }
+        requestList();
+    })
+
+    new MultiPicker({
+        input: 'yearSelect',
+        container: 'Group-targetContainer',
+        jsonData: [{
+            value: '2022',
+        }, {
+            value: '2021',
+        }],
+        success: function (arr) {
+            console.log('arr', arr)
+            year = arr[0]['value'];
+            requestList();
+        } //回调
+    });
+
+    $('#controlPm').click(function () {
+        if ($('#pmSelectShowDiv').is(':visible')) {
+            $('#pmSelectShowDiv').hide()
+        } else {
+            $('#pmSelectShowDiv').show()
+        }
+    })
+
+    $('.pmitem').click(function () {
+        var value = $(this).attr('data-value');
+        pmOrder = value;
+        $('#controlPm').html('<span>' + $(this).html() + '</span>')
+        $('#pmSelectShowDiv').hide()
+        requestList();
+    })
+
+</script>
+
+<script src="/amls_files/lishi.js"></script>
+
+
+</body>
+</html>
