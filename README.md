@@ -1,22 +1,20 @@
-FastAdmin是一款基于ThinkPHP+Bootstrap的极速后台开发框架。
+# 彩票系统源码|php+vue彩票系统源码|彩票系统建站搭建时时彩快三平台
+专注时时彩网站源码、彩票网站搭建、彩票系统开发、菠菜搭建教程等，让您轻松建站，网站搭建无忧！提供的彩票源码交易、菠菜源码出售、交易所系统搭建、资金理财盘架设、时时彩平台制作、投资理财系统、棋牌游戏源码、聊天软件源码、抢单源码二次开发等服务！
 
 
-## 主要特性
 
-* 基于`Auth`验证的权限管理系统
-    * 支持无限级父子级权限继承，父级的管理员可任意增删改子级管理员及权限设置
-    * 支持单管理员多角色
-    * 支持管理子级数据或个人数据
-* 强大的一键生成功能
-    * 一键生成CRUD,包括控制器、模型、视图、JS、语言包、菜单、回收站等
-    * 一键压缩打包JS和CSS文件，一键CDN静态资源部署
-    * 一键生成控制器菜单和规则
-    * 一键生成API接口文档
-* 完善的前端功能组件开发
-    * 基于`AdminLTE`二次开发
-    * 基于`Bootstrap`开发，自适应手机、平板、PC
-    * 基于`RequireJS`进行JS模块管理，按需加载
-    * 基于`Less`进行样式开发
+## 彩票系统源码介绍
+php+vue彩票系统源码程序是一套采用PHP+vue+apache+MYSQL环境下运行的完善而强大的菠菜系统。经过近多年的开发经验和技术积累，php+vue彩票系统源码程序已逐步走向成熟，在易用性和功能上已经成为同行中的佼佼者。程序体积小->优化程序代码，运行速度快->高效的缓存处理，只要普通的虚拟主机就可以完美搭建起来，建站成本非常低。前后端分离开发，内置标签，自定义函数标签接口，强大的自定义采集功能，只要你会PHP+vue就可以轻松搭建出快三系统、时时彩平台网站，内置了很多菠菜玩法，如11选5，六合彩，PC28，时时彩等。 
+
+## 彩票系统平台特性
+* 内置模型：栏目、标签、文章、专题、友情链接等
+* 数据库：使用SQLAlchemy驱动，主要支持SQLITE和Mysql两种数据库
+* 缓存功能：主要支持Memcached和FileSystemCache两种缓存方式
+* 编辑器：CKEditor富文本编辑器，Markdown编辑器
+* 后台管理：使用Flask-Admin管理后台，功能强大，简单易用
+* 换肤功能：可自定义皮肤（主题），语法兼容Jinja2。内置实用的过滤器和上下 文处理器，可实现常用的查询功能。模板设计符合SEO优化理念
+* 代码片断：后台增加的代码片断，可在模板文件中直接调用
+* 其它功能：Sitemap, Feed, robots.txt, favicon.ico, etc.
 * 强大的插件扩展功能，在线安装卸载升级插件
 * 通用的会员模块和API模块
 * 共用同一账号体系的Web端会员中心权限验证和API接口会员权限验证
@@ -24,9 +22,6 @@ FastAdmin是一款基于ThinkPHP+Bootstrap的极速后台开发框架。
 * 多语言支持，服务端及客户端支持
 * 支持大文件分片上传、剪切板粘贴上传、拖拽上传，进度条显示，图片上传前压缩
 * 支持表格固定列、固定表头、跨页选择、Excel导出、模板渲染等功能
-* 强大的第三方应用模块支持([CMS](https://www.fastadmin.net/store/cms.html)、[博客](https://www.fastadmin.net/store/blog.html)、[知识付费问答](https://www.fastadmin.net/store/ask.html)、[在线投票系统](https://www.fastadmin.net/store/vote.html)、[B2C商城](https://www.fastadmin.net/store/shopro.html)、[B2B2C商城](https://www.fastadmin.net/store/wanlshop.html))
-* 支持CMS、博客、知识付费问答无缝整合[Xunsearch全文搜索](https://www.fastadmin.net/store/xunsearch.html)
-* 第三方小程序支持([CMS小程序](https://www.fastadmin.net/store/cms.html)、[预订小程序](https://www.fastadmin.net/store/ball.html)、[问答小程序](https://www.fastadmin.net/store/ask.html)、[点餐小程序](https://www.fastadmin.net/store/unidrink.html)、[B2C小程序](https://www.fastadmin.net/store/shopro.html)、[B2B2C小程序](https://www.fastadmin.net/store/wanlshop.html)、[博客小程序](https://www.fastadmin.net/store/blog.html))
 * 整合第三方短信接口(阿里云、腾讯云短信)
 * 无缝整合第三方云存储(七牛云、阿里云OSS、又拍云)功能，支持云储存分片上传
 * 第三方富文本编辑器支持(Summernote、Kindeditor、百度编辑器)
@@ -85,13 +80,13 @@ Layer: https://layuion.com/layer/
 
 DropzoneJS: https://www.dropzonejs.com
 
+### 免责声明
+本程序仅供内部学习和交流使用，没有内置任何数据，请在遵守当地法律的前提下使用本站程序，对用户在使用过程中的自行维护的信息内容本站不负任何责任！
 
-## 版权信息
 
-FastAdmin遵循Apache2开源协议发布，并提供免费使用。
-
-本项目包含的第三方源码和二进制文件之版权信息另行标注。
-
-版权所有Copyright © 2017-2022 by FastAdmin (https://www.fastadmin.net)
+### 版权信息
+版权所有Copyright © 2017-2025 by tuku325 (https://www.tuku325.cc/)
 
 All rights reserved。
+
+
